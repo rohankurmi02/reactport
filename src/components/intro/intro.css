@@ -1,0 +1,85 @@
+#intro{
+    height: calc(100 -4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bg{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+
+}
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 4rem;
+    font-size: 3rem;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.Introname{
+color: rgb(226, 226, 43);
+
+}
+.intropara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.btn{
+    background: rgb(230, 141, 7);
+    margin:  2rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    line-height: normal;
+    height: 68px; 
+    width: 190px;
+    padding: 15px 16px;
+    padding: auto;
+    font-size: 29px;
+    
+}
+.btnImg{
+    object-fit: cover;
+    margin :0.25rem;
+    height: 1.4rem;
+    padding: auto;
+
+}
+
+@media screen and (max-width:840px) {
+    .bg{
+        right: -10vw;
+
+
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .bg{
+        right: -20vw;
+
+
+    }
+    
+}
