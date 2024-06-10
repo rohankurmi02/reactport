@@ -1,20 +1,23 @@
-#intro{
-    height: calc(100 -4rem);
+#intro {
+    height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
-}
-.bg{
+    position: relative;
+    background-color: #f5f5f5;
+  }
+  
+  .bg {
     position: absolute;
     top: 1rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
     height: 100vh;
-
-}
-.introContent{
+  }
+  
+  .introContent {
     height: 100vh;
     width: 100vw;
     padding: 4rem;
@@ -23,63 +26,60 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
-}
-.hello{
+  }
+  
+  .hello {
     font-size: 1.75rem;
     font-weight: 100;
-}
-.Introname{
-color: rgb(226, 226, 43);
-
-}
-.intropara{
+  }
+  
+  .Introname {
+    color: rgb(226, 226, 43);
+  }
+  
+  .intropara {
     font-size: medium;
     font-weight: 300;
     letter-spacing: 1px;
-}
-.btn{
+  }
+  
+  .btn {
     background: rgb(230, 141, 7);
-    margin:  2rem 0;
+    margin: 2rem 0;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
-    line-height: normal;
-    height: 68px; 
-    width: 190px;
-    padding: 15px 16px;
-    padding: auto;
-    font-size: 29px;
-    
-}
-.btnImg{
-    object-fit: cover;
-    margin :0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .btnImg {
+    margin-right: 0.5rem;
     height: 1.4rem;
-    padding: auto;
-
-}
-
-@media screen and (max-width:840px) {
-    .bg{
-        right: -10vw;
-
-
+  }
+  
+  @media screen and (max-width: 840px) {
+    .bg {
+      right: -10vw;
     }
-    .introContent{
-        font-size: 10vw;
+    .introContent {
+      font-size: 10vw;
     }
-    .hello{
-        font-size: 4.5vw;
+    .hello {
+      font-size: 4.5vw;
     }
-}
-
-@media screen and (max-width:480px) {
-    .bg{
-        right: -20vw;
-
-
+  }
+  
+  @media screen and (max-width: 480px) {
+    .bg {
+      right: -20vw;
     }
-    
-}
+  }
+  
