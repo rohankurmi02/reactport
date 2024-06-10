@@ -31,8 +31,8 @@ const Contact = () => {
     <section id ="contactPage">
         <div id ="clients">
             <h1 className="contactPageTile">My Client</h1>
-          <p className="clientDesc">Lorem ipsum dolor sit amet consectetur, 
-          adipisicing elit. Dolor doloremque fugit itaque voluptatibus corporis hic
+          <p className="clientDesc">i have been working and studying bscit , 
+           elit. Dolor doloremque fugit itaque voluptatibus corporis hic
            tempora nam iste blanditiis soluta laboriosam dicta, aut ipsum modi 
           repudiandae consequuntur atque, similique minima.
           </p>

@@ -1,0 +1,90 @@
+/* Navbar styles */
+.navbar {
+    background: rgb(55, 55, 55);
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.desktopmenuBtn {
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+.desktopmenuImg {
+    width: 15px;
+    height: 38px;
+    margin-right: 0.5rem;
+    object-fit: contain;
+}
+
+/* Dropdown styles */
+.dropdownMenu {
+    display: none;
+    flex-direction: column;
+    background: rgb(55, 55, 55);
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    z-index: 4;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.dropdownMenuItem {
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdownMenuItem:hover {
+    background: rgb(75, 75, 75);
+}
+
+.dropdownMenuToggle {
+    display: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 412px) {
+    .desktopmenu {
+        display: none;
+    }
+
+    .dropdownMenuToggle {
+        display: flex;
+    }
+}
